@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+    <title>Inventario</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            color: #333;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .container h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+
+        .container p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+
+        .section {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .section h3 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Software para manejo de inventario</h1>
+    </header>
+
+    <div class="container">
+        <h2>Bienvenido al Sistema de Manejo de Inventarios</h2>
+        <p>Gestiona tu inventario de manera eficiente y efectiva. Usa el menú a continuación para comenzar.</p>
+        <nav>
+            <ul>
+               
+                
+            </ul>
+        </nav>
+
+        <!-- Sección: ¿Qué es un Inventario? -->
+        <div class="section">
+            <h3>¿Qué es un Inventario?</h3>
+            <p>Un inventario es el conjunto de bienes y productos que una empresa tiene en su posesión, con el propósito de venderlos, utilizarlos en la producción, o proporcionar servicios. Un sistema de inventario ayuda a las empresas a mantener un registro detallado y actualizado de todos estos bienes.</p>
+        </div>
+
+        <!-- Sección: Beneficios del Sistema de Inventario -->
+        <div class="section">
+            <h3>Beneficios del Sistema de Inventario</h3>
+            <p>Utilizar un sistema de manejo de inventarios ofrece múltiples beneficios, tales como:</p>
+            <ul>
+                <li>Optimización de los niveles de inventario.</li>
+                <li>Reducción de costos de almacenamiento.</li>
+                <li>Mejora en la precisión de los pedidos.</li>
+                <li>Mayor visibilidad y control de los productos en tiempo real.</li>
+            </ul>
+        </div>
+
+        <!-- Sección: ¿Qué son los Productos? -->
+        <div class="section">
+            <h3>¿Qué son los Productos?</h3>
+            <p>En el contexto de un sistema de inventario, los productos son los bienes que una empresa vende a sus clientes o utiliza en la producción de otros bienes. Cada producto en el inventario está asociado con detalles específicos, como la cantidad disponible, la ubicación en el almacén, y los costos.</p>
+        </div>
+
+        <!-- Sección: Almacenes -->
+        <div class="section">
+            <h3>Almacenes</h3>
+            <p>Los almacenes son los lugares físicos donde se guardan los productos. Un sistema de inventario eficiente permite a las empresas gestionar múltiples almacenes, rastrear la ubicación de los productos y optimizar la distribución de bienes entre diferentes ubicaciones.</p>
+        </div>
+
+        <!-- Sección: Tipos de Movimientos -->
+        <div class="section">
+            <h3>Tipos de Movimientos</h3>
+            <p>En el manejo de inventarios, los movimientos se refieren a las transacciones que afectan la cantidad de productos en inventario. Estos incluyen:</p>
+            <ul>
+                <li>Entradas de inventario: recepción de productos en el almacén.</li>
+                <li>Salidas de inventario: despacho de productos a los clientes o para producción.</li>
+                <li>Transferencias: movimiento de productos entre diferentes almacenes.</li>
+                <li>Ajustes: correcciones realizadas para reflejar discrepancias entre el inventario físico y el sistema.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Inventory Management System. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
